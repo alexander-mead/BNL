@@ -1,4 +1,4 @@
-# Halo model
+# BNL
 
 Example halo model code that includes non-linear halo bias following Mead & Verde (2020; xxxx.xxxxx).
 
