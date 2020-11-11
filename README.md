@@ -4,7 +4,7 @@ Example halo model code that includes non-linear halo bias following Mead & Verd
 
 Clone the repository using
 ```
-git clone --recursive https://github.com/alexander-mead/HMcode
+git clone --recursive https://github.com/alexander-mead/BNL
 ```
 the ```--recursive``` is important because that will also ensure that necessary libraries are cloned in to the ```library/``` subdirectory. ```BNL``` can then be compiled using ```>make```. If you get an error: ```*** No rule to make target `build/precision.o', needed by `bin/BNL'.``` this is because you did not use the ```-- recursive``` flag above. ```BNL``` should compile with any ```Fortran``` compiler, the default is ```gfortran```, but you can change the compiler within the ```Makefile```. To run the compiled code type ```>./bin/BNL```.
 
