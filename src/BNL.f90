@@ -23,7 +23,7 @@ CONTAINS
 
       REAL, PARAMETER :: kmin = 1e-2
       REAL, PARAMETER :: kmax = 1e1
-      INTEGER, PARAMETER :: nk = 128
+      INTEGER, PARAMETER :: nk = 256
       REAL, PARAMETER :: amin = 0.5
       REAL, PARAMETER :: amax = 1.0
       INTEGER, PARAMETER :: na = 9
