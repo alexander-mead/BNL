@@ -30,10 +30,10 @@ CONTAINS
       INTEGER, PARAMETER :: icosmo_default = 37
       INTEGER, PARAMETER :: ihm_std = 115
       INTEGER, PARAMETER :: ihm_bnl = 114
-      CHARACTER(len=256), PARAMETER :: base_std = 'data/power_std'
-      CHARACTER(len=256), PARAMETER :: base_bnl = 'data/power_bnl'
+      CHARACTER(len=256), PARAMETER :: base_std = 'results/power_std'
+      CHARACTER(len=256), PARAMETER :: base_bnl = 'results/power_bnl'
       LOGICAL, PARAMETER :: verbose = .FALSE.
-      CHARACTER(len=256), PARAMETER :: bnl_path = './library/data/'
+      CHARACTER(len=256), PARAMETER :: bnl_path = './data/'
       INTEGER, PARAMETER :: field(1) = [field_matter]
       INTEGER, PARAMETER :: nf = size(field)
 

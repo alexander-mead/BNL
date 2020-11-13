@@ -1,7 +1,7 @@
 reset
 
-std = 'data/power_std_hm.dat'
-bnl = 'data/power_bnl_hm.dat'
+std = 'results/power_std_hm.dat'
+bnl = 'results/power_bnl_hm.dat'
 n = 9
 
 klab = 'k / h Mpc^{-1}'
