@@ -22,7 +22,7 @@ CONTAINS
       TYPE(cosmology) :: cosm
 
       REAL, PARAMETER :: kmin = 1e-2
-      REAL, PARAMETER :: kmax = 1e1
+      REAL, PARAMETER :: kmax = 1e0
       INTEGER, PARAMETER :: nk = 256
       REAL, PARAMETER :: amin = 0.5
       REAL, PARAMETER :: amax = 1.0
@@ -65,7 +65,6 @@ CONTAINS
          CALL fill_array(amin, amax, a, na)
 
          ! Do the halo model calculation
-         !CALL calculate_halomod_full(k, a, pow_li, pow_2h, pow_1h, pow_hm, nk, na, cosm, ihm)
          CALL calculate_HMx_old(field, size(field), k, nk, a, na, pow_li, pow_2h, pow_1h, pow_hm, hmod, cosm, verbose)
 
          ! Write data file to disk
