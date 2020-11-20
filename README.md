@@ -24,4 +24,4 @@ DO jbin = 1, nbin
 END DO
 ```
 
-The different numbers for the _binstats.dat and _bnl.dat correspond to different Multidark snapshots. The redshifts are given in the `MDR1_redshifts.csv` file.
+The different numbers for the `*_binstats.dat` and `*_bnl.dat` correspond to different Multidark snapshots. The redshifts are given in the `MDR1_redshifts.csv` file.
