@@ -15,8 +15,8 @@ In the `data/BNL/M512/` directory you will find measurements (in ascii format) o
 A simple `Fortran` loop to read a `_bnl.dat` file would be:
 
 ```
-DO ibin = 1, nbin
-  DO jbin = 1, nbin
+DO jbin = 1, nbin
+  DO ibin = 1, nbin
      DO ik = 1, nk
         READ (u, *) k(ik), B(ik, ibin, jbin)
      END DO
