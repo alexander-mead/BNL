@@ -27,7 +27,7 @@ CONTAINS
       REAL, PARAMETER :: amin = 0.5
       REAL, PARAMETER :: amax = 1.0
       INTEGER, PARAMETER :: na = 9
-      INTEGER, PARAMETER :: icosmo_default = 37
+      INTEGER, PARAMETER :: icosmo_default = 44
       INTEGER, PARAMETER :: ihm_std = 115
       INTEGER, PARAMETER :: ihm_bnl = 114
       CHARACTER(len=256), PARAMETER :: base_std = 'results/power_std'
