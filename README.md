@@ -1,6 +1,6 @@
 # BNL
 
-Example halo model code that includes non-linear halo bias following Mead & Verde (2020; xxxx.xxxxx).
+Example halo model code that includes non-linear halo bias following Mead & Verde (2020; https://arxiv.org/abs/2011.08858).
 
 Clone the repository using
 ```
@@ -15,8 +15,8 @@ In the `data/BNL/M512/` directory you will find measurements (in ascii format) o
 A simple `Fortran` loop to read a `_bnl.dat` file would be:
 
 ```
-DO ibin = 1, nbin
-  DO jbin = 1, nbin
+DO jbin = 1, nbin
+  DO ibin = 1, nbin
      DO ik = 1, nk
         READ (u, *) k(ik), B(ik, ibin, jbin)
      END DO
@@ -24,4 +24,4 @@ DO ibin = 1, nbin
 END DO
 ```
 
-The different numbers for the _binstats.dat and _bnl.dat correspond to different Multidark snapshots. The redshifts are given in the `MDR1_redshifts.csv` file.
+The different numbers for the `*_binstats.dat` and `*_bnl.dat` correspond to different Multidark snapshots. The redshifts are given in the `MDR1_redshifts.csv` file.
