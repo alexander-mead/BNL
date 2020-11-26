@@ -25,3 +25,5 @@ END DO
 ```
 
 The different numbers for the `*_binstats.dat` and `*_bnl.dat` correspond to different Multidark snapshots. The redshifts are given in the `MDR1_redshifts.csv` file.
+
+The research to develop this softare was funded by the Horizon 2020 research and innovation programme of the European Union under Marie Sklodowska-Curie grant agreement No. 702971.
