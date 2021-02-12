@@ -1,3 +1,9 @@
 # Directories created by makefile
 bin/
 build/
+
+# Executables
+*.e
+
+# Plots
+*.eps
